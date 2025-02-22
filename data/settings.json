@@ -1,0 +1,20 @@
+{
+  "supportedLanguages": [
+    {
+      "name": "English",
+      "id": "en",
+      "flagUrl": "images/flags/en.png",
+      "default": true
+    },
+
+    {
+      "name": "Português",
+      "id": "pt",
+      "flagUrl": "images/flags/pt.png"
+    }
+  ],
+
+  "preloaderEnabled": true,
+  "contactFormEnabled": false,
+  "sidebarShrinkingEnabled": true
+}

@@ -1,0 +1,71 @@
+{
+  "locales": {
+    "en": {
+      "title": "<span class='text-primary'>Professional</span> Experience",
+      "description": "A look into my work experience and career journey."
+    },
+
+    "pt": {
+      "title": "<span class='text-primary'>Experiência</span> Profesional",
+      "description": "Um relance sobre o meu percurso profissional."
+    }
+  },
+
+  "items": [
+    {
+      "id": "experience_item_1",
+      "place": "@link{places.futureCompta}",
+      "period": ["2022/03", "2022/07"],
+      "locales": {
+        "en": {
+          "title": "QA Testing Automation Internship",
+          "description": "Automated various QA tests of pages dedicated to an ecological project within FUTURE COMPTA.",
+          "tags": ["Selenium", "QA", "Testing", "JavaScript"]
+        },
+        "pt": {
+          "title": "Estágio em Automação de Testes QA",
+          "description": "Automação de Testes de várias páginas de um projeto eco-ambiental dentro da FUTURE COMPTA.",
+          "tags": ["Selenium", "QA", "Testes", "JavaScript"]
+        }
+      }
+    },
+
+    {
+      "id": "experience_item_2",
+      "place": "@link{places.timestamp}",
+      "period": ["2023/01", "2099/01"],
+      "locales": {
+        "en": {
+          "title": "Linux System Administrator",
+          "description": "Coordenating and executing several projects in establishing virtual server infrastructure for various clients, as well as the management and maintenance of those servers post-project.",
+          "tags": [
+            "Linux",
+            "System Administration",
+            "Red Hat",
+            "Oracle Linux",
+            "Oracle Cloud",
+            "GitLab",
+            "VMWare",
+            "Oracle Linux Virtualization Manager",
+            "Ansible"
+          ]
+        },
+        "pt": {
+          "title": "Administrador de Sistemas Linux",
+          "description": "Coordenação e execução de vários projetos de montagem de infrastrutura de servidores virtuais para vários clientes, assim como a gestão e manutenção dos mesmos após o projeto.",
+          "tags": [
+            "Linux",
+            "Administração de Sistemas",
+            "Red Hat",
+            "Oracle Linux",
+            "Oracle Cloud",
+            "GitLab",
+            "VMWare",
+            "Oracle Linux Virtualization Manager",
+            "Ansible"
+          ]
+        }
+      }
+    }
+  ]
+}

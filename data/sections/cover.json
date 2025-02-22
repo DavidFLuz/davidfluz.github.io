@@ -1,0 +1,27 @@
+{
+  "locales": {
+    "en": {
+      "welcome": "Welcome to my <span class='text-primary'>Digital Resume.</span>",
+      "welcomeShort": "Welcome!",
+      "bio": "Since 2023, I've been working professionally as a Linux System Administrator for various clients, both private and of the state, and I pride myself on my speed and quality."
+    },
+
+    "pt": {
+      "welcome": "Bem-vindo ao meu <span class='text-primary'>CV Digital.</span>",
+      "welcomeShort": "Bem-vindo!",
+      "bio": "Desde 2023 que trabalho como Administrador de Sistemas Linux para vários clientes, tanto privados como do estado, e tenho orgulho tanto na minha agilidade como na minha qualidade."
+    }
+  },
+
+  "items": {
+    "socialCircles": [
+      "@link{profile.contact.linkedin}",
+      "@link{profile.contact.github}"
+    ],
+
+    "contactListItems": [
+      "@link{profile.contact.email}",
+      "@link{profile.contact.phone}"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "locales": {
+    "en": {
+      "title": "Career <span class='text-primary'>Achievements</span>",
+      "description": "My career as a System Administrator is marked by various learned experiences and improvements throughout, as shown by my certifications."
+    },
+
+    "pt": {
+      "title": "Conquistas <span class='text-primary'>Profissionais</span>",
+      "description": "A minha carreira como Administrador de Sistemas está marcada por várias aprendizagens e melhorias ao longo do seu percurso, notadas pelas minhas certificações."
+    }
+  },
+
+  "subcategories": [
+    {
+      "id": "certifications",
+      "faIcon": "fa-solid fa-award",
+      "locales": {
+        "en": {
+          "title": "Certifications",
+          "buttonLabel": "View Certification"
+        },
+        "pt": { "title": "Certificações", "buttonLabel": "Ver Certificação" }
+      }
+    }
+  ],
+
+  "items": {
+    "certifications": [
+      {
+        "id": "RHCE",
+        "place": "@link{places.redHat}",
+        "date": "2023/06",
+        "href": "https://www.credly.com/badges/648ba507-814d-4f9a-b38a-bfed1b050e45/linked_in_profile",
+        "locales": {
+          "en": {
+            "title": "Red Hat Certified Expert (RHCE)",
+            "description": "Certified by Red Hat in Linux System Administration expertise, as well as the use of Ansible to automate sysadmin tasks."
+          },
+
+          "pt": {
+            "title": "Red Hat Certified Expert (RHCE)",
+            "description": "Certificado pela Red Hat em Administração de Sistemas Linux avançada, assim como a utilização de Ansible para a automação de tarefas de administração."
+          }
+        }
+      },
+      {
+        "id": "RHCSA",
+        "place": "@link{places.redHat}",
+        "date": "2023/03",
+        "href": "https://www.credly.com/badges/bc53c555-1ab9-4a2c-b5c1-092d9d80aee2/public_url",
+        "locales": {
+          "en": {
+            "title": "Red Hat Certified System Administrator (RHCSA)",
+            "description": "Certified by Red Hat in Linux System Administration."
+          },
+
+          "pt": {
+            "title": "Red Hat Certified System Administrator (RHCSA)",
+            "description": "Certificado pela Red Hat em Administração de Sistemas Linux."
+          }
+        }
+      }
+    ]
+  }
+}

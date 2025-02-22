@@ -1,0 +1,50 @@
+{
+  "locales": {
+    "en": {
+      "title": "<span class='text-primary'>Educational</span> Background",
+      "description": "A glimpse into my academic trajectory and accomplishments."
+    },
+
+    "pt": {
+      "title": "Formação <span class='text-primary'>Académica</span>",
+      "description": "Uma janela para a minha trajetória e conquistas académicas."
+    }
+  },
+
+  "items": [
+    {
+      "id": "ctesp",
+      "place": "@link{places.piaget}",
+      "period": ["2020/09", "2022/09"],
+
+      "locales": {
+        "en": {
+          "title": "Technical Professional Course in Web Development, Devices and Mobile Applications",
+          "description": "Enrolled in a 120 ECTS course engineered towards effective IT work in the professional world."
+        },
+
+        "pt": {
+          "title": "Curso Técnico Profissional em Programação em Web, Dispositivos e Aplicações Móveis",
+          "description": "Inscrito num curso de 120 ECTS designado a trabalho efetivo de IT no mundo profissional."
+        }
+      }
+    },
+    {
+      "id": "bachelor",
+      "place": "@link{places.piaget}",
+      "period": ["2022/09", "2026/09"],
+
+      "locales": {
+        "en": {
+          "title": "Bachelor's in Information Technology Engineering",
+          "description": "Enrolled in IT Engineering Bachelor's."
+        },
+
+        "pt": {
+          "title": "Licenciatura em Engenharia Informática",
+          "description": "Inscrito na Licenciatura de Engenharia Informática."
+        }
+      }
+    }
+  ]
+}

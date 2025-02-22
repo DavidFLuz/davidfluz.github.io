@@ -1,0 +1,108 @@
+{
+  "locales": {
+    "en": {
+      "title": "<span class='text-primary'>Hobbies</span> & Interests",
+      "description": "This is what I spend my free time on:"
+    },
+    "pt": {
+      "title": "<span class='text-primary'>Passatempos</span> e Intereses",
+      "description": "Eis como passo o meu tempo livre:"
+    }
+  },
+
+  "subcategories": [
+    {
+      "id": "interests",
+      "type": "list",
+      "progress": null,
+      "faIcon": "fa fa-book-open-reader",
+      "locales": {
+        "en": { "title": null }
+      }
+    }
+  ],
+
+  "items": {
+    "interests": [
+      {
+        "imageIconUrl": null,
+        "faIcon": "fas fa-code",
+        "value": null,
+        "locales": {
+          "en": {
+            "title": "Programming",
+            "description": "Experimenting with home self-hosting solutions and automation with my trusty old Raspberry Pi."
+          },
+          "pt": {
+            "title": "Programação",
+            "description": "Experimentação com soluções de self-hosting e automação com a assistência do meu Raspberry Pi."
+          }
+        }
+      },
+
+      {
+        "imageIconUrl": null,
+        "faIcon": "fas fa-music",
+        "value": null,
+        "locales": {
+          "en": {
+            "title": "Music",
+            "description": "Listening to music, unwinding, and exploring various genres."
+          },
+          "pt": {
+            "title": "Música",
+            "description": "Ouvindo música, ralaxando e explorando vários géneros."
+          }
+        }
+      },
+
+      {
+        "imageIconUrl": null,
+        "faIcon": "fas fa-gamepad",
+        "value": null,
+        "locales": {
+          "en": {
+            "title": "Videogames",
+            "description": "Enjoying various videogame genres, but especially RPGs of all kinds."
+          },
+          "pt": {
+            "title": "Videojogos",
+            "description": "Desfrutando de vários géneros de jogos, mas especialmente RPGs."
+          }
+        }
+      },
+
+      {
+        "imageIconUrl": null,
+        "faIcon": "fas fa-dice",
+        "value": null,
+        "locales": {
+          "en": {
+            "title": "TTRPGs & Board Games",
+            "description": "Organizing, creating, writing, and running TTRPGs to delight all kinds of players."
+          },
+          "pt": {
+            "title": "TTRPGs & Jogos de Tabuleiro",
+            "description": "Organizando, criando, escrevendo, e executando sessões de TTRPG que deslumbram todos os tipos de jogadores."
+          }
+        }
+      },
+
+      {
+        "imageIconUrl": null,
+        "faIcon": "fas fa-palette",
+        "value": null,
+        "locales": {
+          "en": {
+            "title": "Visual Arts",
+            "description": "Drawing, painting, photography, and all kinds of other expressive mediums - especially digitally."
+          },
+          "pt": {
+            "title": "Artes Visuais",
+            "description": "Desenho, pintura, fotografia, e toda uma variedade de expressão - especialmente no formato digital."
+          }
+        }
+      }
+    ]
+  }
+}

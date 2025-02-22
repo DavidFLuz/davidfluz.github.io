@@ -1,0 +1,175 @@
+{
+  "locales": {
+    "en": {
+      "title": "<span class='text-primary'>Skill</span> Set",
+      "description": "Exploring the diverse range of skills I've acquired and developed:"
+    },
+    "pt": {
+      "title": "Conjunto de <span class='text-primary'>Habilidades</span>",
+      "description": "Explorando as várias habilidades que tenho vindo a acumular e cultivar:"
+    }
+  },
+
+  "subcategories": [
+    {
+      "id": "abilities",
+      "type": "grid",
+      "progress": null,
+      "faIcon": "fa-solid fa-square",
+      "locales": {
+        "en": { "title": null }
+      }
+    },
+    {
+      "id": "languages",
+      "type": "list",
+      "progress": {
+        "0": "beginner",
+        "20": "rookie",
+        "40": "intermediate",
+        "60": "advanced",
+        "80": "fluent",
+        "100": "native"
+      },
+      "faIcon": "fa fa-language",
+      "locales": {
+        "en": { "title": "Languages" },
+        "pt": { "title": "Idiomas" }
+      }
+    }
+  ],
+
+  "items": {
+    "abilities": [
+      {
+        "imageIconUrl": null,
+        "faIcon": "fa-brands fa-linux",
+        "value": null,
+        "locales": {
+          "en": {
+            "title": "Linux",
+            "description": "Comfortable navigating the intricaces of Linux systems, including branded distros such as Oracle Linux and Red Hat Enterprise Linux."
+          },
+          "pt": {
+            "title": "Linux",
+            "description": "Comfortável com a navegação dos vários detalhes de sistemas Linux, incluindo distribuições empresariais como Oracle Linux e Red Hat Enterprise Linux."
+          }
+        }
+      },
+
+      {
+        "imageIconUrl": null,
+        "faIcon": "fas fa-laptop-code",
+        "value": null,
+        "locales": {
+          "en": {
+            "title": "Ansible",
+            "description": "Experience with automating various tasks on Linux systems using Ansible."
+          },
+          "pt": {
+            "title": "Ansible",
+            "description": "Experiência com a automação de várias tarefas em sistemas Linux com Ansible."
+          }
+        }
+      },
+
+      {
+        "imageIconUrl": null,
+        "faIcon": "fas fa-server",
+        "value": null,
+        "locales": {
+          "en": {
+            "title": "VM Setup",
+            "description": "Experienced with various VM management software and the creation and setup of servers within them."
+          },
+          "pt": {
+            "title": "Montagem de VMs",
+            "description": "Experiente com várias plataformas de gestão de VMs, assim como a criação e gestão de servidores nelas."
+          }
+        }
+      },
+
+      {
+        "imageIconUrl": null,
+        "faIcon": "fa-brands fa-gitlab",
+        "value": null,
+        "locales": {
+          "en": {
+            "title": "Version Control",
+            "description": "Experienced with the use of Git and SVN for version control purposes in multi-user projects."
+          },
+          "pt": {
+            "title": "Controlo de Versões",
+            "description": "Experiente na utilização de Git e SVN para controlo de versão em projetos com vários colaboradores."
+          }
+        }
+      },
+
+      {
+        "imageIconUrl": null,
+        "faIcon": "fas fa-code",
+        "value": null,
+        "locales": {
+          "en": {
+            "title": "Web Development",
+            "description": "Experienced with frontend development, such as for web pages and mobile applications."
+          },
+          "pt": {
+            "title": "Desenvolvimento Web",
+            "description": "Experiente com o desenvolvimento frontend, como por exemplo páginas web e aplicações móveis."
+          }
+        }
+      },
+
+      {
+        "imageIconUrl": null,
+        "faIcon": "fa-brands fa-chrome",
+        "value": null,
+        "locales": {
+          "en": {
+            "title": "Selenium WebDriver",
+            "description": "Comfortable with the use of Selenium WebDriver to test and automate web interactions."
+          },
+          "pt": {
+            "title": "Selenium WebDriver",
+            "description": "Comfortável com a utilização de Selenium WebDriver no testar e automação de interações em páginas web."
+          }
+        }
+      }
+    ],
+
+    "languages": [
+      {
+        "imageIconUrl": "images/flags/pt.png",
+        "faIcon": null,
+        "value": 100,
+        "locales": {
+          "en": {
+            "title": "Portuguese",
+            "description": "Native speaker with excellent communication and writing skills."
+          },
+          "pt": {
+            "title": "Português",
+            "description": "Falante nativo com excelentes capacidades de comunicação e escrita."
+          }
+        }
+      },
+
+      {
+        "imageIconUrl": "images/flags/en.png",
+        "faIcon": null,
+        "value": 99,
+        "locales": {
+          "en": {
+            "title": "English",
+            "description": "Highly fluent in both spoken and written English, and confident in communication within professional environments."
+          },
+          "pt": {
+            "title": "Inglês",
+            "description": "Altamente fluente em comunicação tanto escrita como falada, e confiante nas minhas capacidades de comunicação em ambientes profissionais."
+          }
+        }
+      }
+    ]
+  }
+}
